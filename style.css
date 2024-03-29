@@ -1,0 +1,117 @@
+#navbar1{
+    color: white;
+    background-color: green;
+    gap: 20%;
+    gap: 20%;
+}
+#navbar2{
+    display: flex;
+    gap: 20px;
+    
+}
+#page1{
+    background-image: url(./image/bed2.jpg ) ;
+    background-repeat:no-repeat ;
+    
+
+}
+#container{
+    text-align: center;
+}
+#page2{
+    display: flex;
+    gap: 20%;
+}
+#buutons{
+    display: flex;
+}
+#buttonknow{
+    color: white;
+ background-color: gree;
+}
+#page3{
+    display: flex;
+}
+#page4{
+    display: flex;
+}
+#page5{
+    text-align: center;
+}
+#page6{
+    display: flex;
+}
+#page7{
+    text-align: center;
+}
+#page8{
+    display: flex;
+    text-align: center;
+}
+#footer{
+    display: flex;
+    gap:10%;
+    color: white;
+    background-color: black;
+}
+
+    
+
+@media screen and (min-width: 375px) and(max-width:600px){
+
+    #navbar1{
+        color: white;
+        background-color: green;
+        gap: 20%;
+        gap: 20%;
+    }
+
+    #navbar2{
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    #page3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        
+        color: white;
+        background-color: black;
+    }
+    #page4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #page2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #page6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+#page4{
+    display: flex;
+    flex-wrap: wrap;
+}
+#page2{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#page6{
+    display: flex;
+    flex-wrap: wrap;
+}
+#page3{
+    display: flex;
+    flex-wrap: wrap;
+}
